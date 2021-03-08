@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Akaya Telivigala', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header nav .header-nav  .img-fluid{
+    width:150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: rgba(0,0,0, 0.4) 6px 6px 6px 6px;
+    margin: 0;
+}
+
+header {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 26%, rgba(252,70,107,1) 81%);
+    min-height: 250px;
+    color:co;
+    
+}
+header .header-nav .logo{
+    padding:10px;
+    justify-content: flex-start;;
+    
+}
+
+header .header-nav .logo .logo-text{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+
+header .header-nav .header-items .header-anchor li a{
+    color: beige;
+    font-size: 20px;
+}
+
+header .header-nav .header-items .header-anchor li a:hover{
+    border-bottom: 3px solid salmon;
+}
+header .header-content .overlay{
+    transition: transform 0.2 ease-in;
+   
+}
+header .header-content button a{
+    text-decoration: none;
+    color: rgb(160, 21, 67)
+
+}
+header .header-content button a:hover{
+    color:cornsilk;
+}
+
+header .header-content .img-fluid{
+    border-radius: 5px;
+    padding-top: 4px;
+    width:400px;
+    
+    
+}
+
+header .header-content .img-fluid:hover{
+    transform: translateY(10px);
+    transition: transform 0.2 ease-in;    
+}
+
+/* Main section CSS */
+main{
+    background-color: rgb(78, 70, 70);
+}
+main .main-tab{
+    background-color: #fff;
+}
+
+.main .cart .img-fluid{
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.main .cart .img-fluid:hover{
+    transform: translateY(-10px);
+}
+
+.main .table-hover:hover{
+    background-color: beige !important;
+}
+
+
+/* Main section Product page*/
+
+.product{
+  background-color: aqua;
+  min-height: 350px;  
+}
+
+.product .product-cont .product-img .img-fluid{
+    width:300px;
+    height: 250px;
+}
+.product .product-cont .product-img .img-fluid:hover{
+    border: 3px solid rgb(173, 30, 78);
+}
+
+
+.news-letter{
+    color: cornsilk;
+    background-color: rgb(78, 70, 70);
+    min-height:200px;
+    
+}
+
+.news-letter .news-letter-form .mail {
+    width: 300px;
+    height:50px;
+    border: none;
+    padding: 5px;
+    border-radius: 0;
+    text-align: center;
+
+
+
+}
+.news-letter .news-letter-form button {
+    width:200px;
+    height:50px;
+    border: none;
+    padding: 5px;
+    border-radius: 0;
+}
+
+.reviews{
+    transition: transform 0.4s ease-in;
+}
+
+.reviews .reviews-items .card:hover{
+    transform: translateY(-10px);
+    border: rgb(212, 51, 51);
+    
+}
+
+/* footer */
+
+footer{
+    background-color: chocolate;
+    color: cornsilk;
+}
+footer .container ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+footer .container .social a{
+    padding: 10px;
+    color: cornsilk;
+    font-size: 25px;
+    transition: transform 0.3s;
+}
+
+footer .container .head .fas{
+    transition: transform 0.3s; 
+}
+
+footer .container .head .fas:hover{
+    transform: translateY(-12px);
+}
+
+footer .container .social a:hover{
+    transform: translateY(-12px);
+}
+
+/* service Page CSS */
+
+.services .sandwich .img-fluid{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0, 0.4) 5px 5px 5px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services .sandwich .img-fluid:hover{
+    transform: scale(1.1);
+}
+
+/* About Page CSS */
+.about{
+    background-color: darkgray;
+}
+
+.about .ceo .img-fluid{
+    height:400px;
+    width: 50%;
+    border-radius: 100%;
+    float: right;
+    box-shadow: rgba(0,0,0, 0.5) 5px 5px 5px 0;
+    transition: transform 0.4s;
+}
+
+.about .ceo .img-fluid:hover{
+transform: translateY(-50px)
+}
+
+/* Contact Page CSS */
+
+.contact .support-form .card form .form-control{
+    padding: 5px 10px;
+    margin:10px;
+}
+.contact .support-form .card form button{
+    padding: 5px 10px;
+    margin:10px;
+}
+.contact .support-form .card {
+    box-shadow: rgba(0,0,0, 0.5) 4px 4px 5px 0;
+}
+
+.contact .rest .img-fluid{
+    border-radius: 5px;
+}
